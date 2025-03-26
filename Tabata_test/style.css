@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    margin: 0;
+    background-color: #E3E5E8;
+    height: 100vh; /* Make body full height */
+    width: 100vw; /* Make body full width */
+    overflow: hidden; /* Hide scrollbars */
+    display: flex; /* Keep existing flex display */
+    flex-direction: column; /* Stack header and container vertically */
+}
+
+header {
+    background-color: #f0f0f0; /* Light grey background for header */
+    padding: 10px;
+    text-align: left; /* Align dropdown to the left */
+}
+
+nav select {
+    font-size: 1.5em; /* Adjust font size of dropdown */
+}
+
+.container {
+    text-align: center;
+    height: auto; /* Adjust container height to content */
+    width: 100vw; /* Make container full width */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1; /* Allow container to take remaining vertical space */
+}
+
+#timer {
+    font-size: 40vh; /* Make timer very large */
+    font-weight: bold;
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+#status {
+    font-size: 4vh;
+    font-family: "Courier New", monospace;
+    text-transform: uppercase;
+}
+
+#sets {
+    font-size: 4vh;
+    margin-bottom: 2vh;
+    font-family: "Courier New", monospace;
+    text-transform: uppercase;
+}
+
+#startStop {
+    font-size: 5vh; /* Make start button larger again */
+    padding: 0.8vh 1.6vh; /* Adjust padding accordingly */
+    cursor: pointer;
+    margin-top: 5vh;
+    margin-bottom: 1vh;
+    font-family: "Courier New", monospace;
+    text-transform: uppercase;
+}
+
+.work {
+    background-color: rgb(59, 149, 59);
+}
+
+.rest {
+    background-color: rgb(255, 74, 74);
+}
+
+#reset {
+    font-size: 5vh; /* Make start button larger again */
+    padding: 0.8vh 1.6vh; /* Adjust padding accordingly */
+    cursor: pointer;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    font-family: "Courier New", monospace;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-family: "Courier New", monospace;
+    text-transform: uppercase;
+}
